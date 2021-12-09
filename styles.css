@@ -495,6 +495,9 @@ footer {
     body {
         width: 768px;
     }
+    main {
+        height: 1024px;
+    }
     #main-section-background {
         background-size: cover;
         background-position: center center;
@@ -586,9 +589,10 @@ footer {
         display: none;
     }
     .review {
+        justify-self: center;
         width: 320px;
         padding: 10px;
-        margin-left: 22px;
+        margin-right: 0px;
     }
     .review:nth-child(4) {
         margin: 0px;
@@ -677,6 +681,9 @@ footer {
         width: 375px;
         height: auto;
     }
+    main {
+        height: 596px;
+    }
     #main-section-background {
         background-size: cover;
         background-position: center center;
@@ -727,6 +734,7 @@ footer {
         grid-template-rows: repeat(2, 1fr);
         width: 342px;
         height: 76px;
+        margin-top: -40px;
     }
     #icon-1, #icon-2, #icon-3, #icon-4 {
         grid-row: 1/3;
@@ -771,10 +779,10 @@ footer {
         display: none;
     }
     .review {
-        justify-self: end;
+        justify-self: center;
         width: 310px;
         height: auto;
-        padding: 10px;
+        margin-right: 0px;
     }
     .review:nth-child(4), .review:nth-child(5) {
         display: none;
@@ -821,7 +829,7 @@ footer {
     }
     #form {
         top: 220px;
-        height: 426px;
+        height: 366px;
         padding-bottom: 40px;
     }
     #container-5 {
@@ -834,10 +842,10 @@ footer {
     }
     #container-5 span {
         grid-column: 1/2;
-        margin-bottom: 44px;
+        margin: 0px;
         font-size: 24px;
         line-height: 32px;
-        align-self: center;
+        text-align: center;
     }
     .data {
         width: 343px;
@@ -867,6 +875,9 @@ footer {
     body {
         width: 320px;
         height: auto;
+    }
+    main {
+        height: 509px;
     }
     #main-section-background {
         background-size: cover;
@@ -918,6 +929,7 @@ footer {
         grid-template-rows: repeat(2, 1fr);
         width: 288px;
         height: 100px;
+        margin-top: -50px;
     }
     #icon-1, #icon-2, #icon-3, #icon-4 {
         grid-row: 1/3;
@@ -968,7 +980,11 @@ footer {
         justify-self: end;
         width: 258px;
         height: auto;
-        padding: 10px;
+        justify-self: center;
+        margin-right: 0px;
+    }
+    .review p:last-child {
+        width: 258px;
     }
     .review:nth-child(4), .review:nth-child(5) {
         display: none;
@@ -993,15 +1009,16 @@ footer {
     }
     #container-3 summary {
         position: relative;
-        width: 285px;
+        width: 300px;
         padding-top: 24px;
         padding-bottom: 24px;
+        font-size: 16px;
     }
     #interviewed {
         align-items: flex-start;
         top: 200px;
         width: 320px;
-        height: 3998px;
+        height: 2028px;
         margin: 0;
     }
     #container-4 {
@@ -1012,10 +1029,11 @@ footer {
     }
     #container-4 span {
         width: 278px;
+        padding-left: 25px;
     }
     #form {
         top: 220px;
-        height: 426px;
+        height: 366px;
         padding-bottom: 40px;
     }
     #container-5 {
@@ -1028,10 +1046,10 @@ footer {
     }
     #container-5 span {
         grid-column: 1/2;
-        margin-bottom: 44px;
+        margin: 0px;
         font-size: 24px;
         line-height: 32px;
-        align-self: center;
+        text-align: center;
     }
     .data {
         width: 288px;
