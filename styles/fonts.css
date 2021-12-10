@@ -1,0 +1,18 @@
+@font-face {
+    font-family: "Graphik-LCG-Medium";
+    src: url("../fonts/Graphik-LCG-Medium/Graphik-LCG-Medium.ttf") format("truetype"),
+    url("../fonts/Graphik-LCG-Medium/Graphik-LCG-Medium.woff") format("woff"),
+    url("../fonts/Graphik-LCG-Medium/Graphik-LCG-Medium.eot") format("eot");
+    font-display: swap;
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "Graphik-LCG-Regular";
+    src: url("../fonts/Graphik-LCG-Regular/Graphik-LCG-Regular.ttf") format("truetype"),
+    url("../fonts/Graphik-LCG-Regular/Graphik-LCG-Regular.woff") format("woff"),
+    url("../fonts/Graphik-LCG-Regular/Graphik-LCG-Regular.eot") format("eot");
+    font-display: swap;
+    font-style: normal;
+    font-weight: normal;
+}
