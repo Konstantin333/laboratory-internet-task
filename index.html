@@ -274,16 +274,18 @@
             </div>
         </section>
         <section id="form"><a name="4th"></a>
-            <div id="container-5">
+            <form>
                 <span>Отправь форму</span>
-                <input class="data" type="text" placeholder="Имя">
-                <input class="data" type="tel" placeholder="Телефон">
+                <input class="data" type="text" placeholder="Имя" pattern="[A-Za-zА-Яа-яЁё]{1,20}">
+                <label id="name-data">Введите имя</label>
+                <input class="data" type="tel" placeholder="Телефон" pattern="[0-9]{10}">
+                <label id="phone-number-data">Введите номер телефона</label>
                 <div>
                     <input type="checkbox">
                     <p>Согласен, отказываюсь</p>
                 </div>
                 <input id="submit" type="submit" name="отправить">
-            </div>
+            </form>
         </section>
         <footer>© 2021 Лаборатория интернет</footer>
     </body>

@@ -484,7 +484,7 @@ details[open] summary:hover::after {
     height: 418px;
     background: #ffffff;
 }
-#container-5 {
+form {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, 1fr);
@@ -493,7 +493,7 @@ details[open] summary:hover::after {
     width: 800px;
     height: 258px;
 }
-#container-5 span {
+form span {
     grid-column: 1/3;
     justify-self: center;
     width: 310px;
@@ -510,29 +510,55 @@ details[open] summary:hover::after {
     padding-left: 16px;
     border: 2px solid #f6f8fa;
     border-radius: 4px;
+    margin-bottom: 30px;
     box-sizing: border-box;
     background: #f6f8fa;
+    color: #5E646A;
     font-size: 18px;
     line-height: 32px;
 }
 .data:focus {
+    padding-top: 26px;
     background: #ffffff;
     outline-color: #c2c8cd;
+    color: #191C1F;
+    font-size: 18px;
+    line-height: 32px;
 }
-#container-5 div {
+.data:invalid {
+    border: 2px solid #F13636;
+}
+input:valid + label, input:invalid + label {
+    display: none;
+}
+input:focus + label {
+    display: block;
+    position: absolute;
+    height: 24px;
+    top: 186px;
+    left: 578px;
+    color: #83898F;
+    font-size: 14px;
+    line-height: 24px;
+}
+input:focus + #phone-number-data {
+    left: 978px;
+}
+form div {
+    align-self: start;
     display: flex;
     flex-direction: row;
-    align-items: center;
 }
-#container-5 div input {
+form div input {
     width: 24px;
     height: 24px;
     margin-right: 16px;
     cursor: pointer;
 }
-#container-5 div p {
+form div p {
     width: 344px;
     height: 28px;
+    margin: 0px;
     font-size: 16px;
     font-weight: lighter;
     line-height: 28px;
